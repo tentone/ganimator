@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Ganimator: Animation Framework</title>
+    <link rel="shortcut icon" href="assets/ganimator_icon.ico">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <!--Adobe Edge Web Fonts OpenSans Font-->
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/open-sans:n3,i3:default.js" type="text/javascript"></script>
+</head>
+    
+    <body>
+    <!--Navigation Bar-->
+    <section id="navigation_bar">
+      <table width=1000 border="0" align="center">
+        <tr>
+          <td width=200 align="left">
+          <img src="assets/ganimator_logo.png"/>
+          </td>
+          <td width=800  align="right">
+          <a href="index.html"><img src="assets/menu_home.png" onmouseover="this.src='assets/menu_home_pressed.png'" onmouseout="this.src='assets/menu_home.png'" /></a>
+          <a href="features.html"><img src="assets/menu_features.png" onmouseover="this.src='assets/menu_features_pressed.png'" onmouseout="this.src='assets/menu_features.png'" /></a>
+		  <!--<a href="news.html"><img src="assets/menu_news.png" onmouseover="this.src='assets/menu_news_pressed.png'" onmouseout="this.src='assets/menu_news.png'" /></a>-->
+          <img src="assets/menu_documentation_pressed.png"/>
+          </td>
+        </tr>
+      </table>
+    </section>
+    
+    <!--Getting started-->
+    <section id="getting_started" align="center">
+        <table width=1000 border="0" align="center">
+        <tr>
+            <td width=550 align="left">
+            <b>Creating the first animation</b>
+            <p>
+            The Ganimator studio consists essentially of three sections where the working window and animation shown on the right panel list of all bones (objects) and their key frames, and finally the timeline.
+The first thing to do when starting a new project is to define a new workplace where they will be stored all the images to be used in the animation to select a new can click File / Settings and choose a directory on the new menu.
+In order to facilitate the animation process is a set of atralhos on the keyboard that allow you to edit the keyframes in a simpler way, together with the mouse are the simplest way to edit the animations.
+            </p>
+            <ul>
+            <li>CTRL - Move Object Position</li>
+            <li>SHIFT - Change Object Size</li>
+            <li>ALT - Set new Origin Point</li>
+            <li>R - Rotate object (mouse X axis)</li>
+			<li>A - Change object alpha</li>
+            <li>Middle Mouse - Move Camera Around</li>
+            </ul>
+            </td>
+            <td width=450 align="left"><img src="assets/documentation_screen_1.png"/></td>
+        </tr>
+        </table>
+        <table width=1000 border="0" align="center"><tr><td width=1000 align="left">
+       <b>Add Frames to the animation</b>
+       <p>To add new Key franes to the animation, we need to create a bone first to create a bone select add in te top box on the right panel, aftar creating a bon a new keyFrame is added to that bone at time 0s, this key frame should be used to sync with the last frame in order to get animations loops to run smooth, to add new frames after create the bone we just need to press the button add in the bottom box in the right panel, a new window will appear asking witch time will be used for the new key frame.</p>
+       <p>The animation duration shown in ganimator is the one from the bone that was the bigger duration associated to it, but every bone can have its own duration and loop multiples timeson the animation</p>
+      </td></tr></table>
+        <br/>
+    </section>
+    
+    <!--iframe with javadocs-->
+    <section id="javadocs" align="center">
+	   <table width=1000 border="0" align="center"><tr><td width=1000 align="left">
+       <b>Ganimator Library JavaDocs</b>
+       <p>Animations created in Ganimator studio can be incorporated into projects created with libGDX (in the future could be added support for alternative frameworks), should be used provided the package along with the program, which contains all the necessary tools for playing and editing animations.</p>
+      </td></tr></table>
+      
+      <iframe src="javadoc/index.html" frameborder=0 width=1000 height=700 align="center"></iframe>
+      <br/> 
+    </section>
+	
+    <!--Sample Code to use with libgdx-->
+    <section id="javadocs" align="center">
+	   <table width=1000 border="0" align="center"><tr><td width=1000 align="left">
+       <b>Creating libGDX project</b>
+       <p>After creating a new projecto using the setup utility included with libGDX, we need to also import the ganimatior-lib.jar included with ganimator, heres a sample code that loads one of the included sample animation from the root on "internal" storage, and loads textures from folder animation also in the root at "internal" data location. (Exported with<a href="http://notepad-plus-plus.org/"> Notepad++</a>)</p>
+      
+      </td></tr></table>
+      <iframe src="files/java_code_sample.html" frameborder=0 width=1000 height=920 align="center"></iframe>
+      <br/> 
+    </section>
+    
+    <!--Footer-->
+    <section id="footer">
+      <table width="1000" border="0" align="center">
+        <tr>
+          <td width=220 align="center"><img src="assets/ganimator_logo_small.png"/>
+          </td>
+          <td width=380>
+              <b>Ganimator Animation Library 2014-2015</b>
+          </td>
+          <td width=400 align="right">
+          	<img src="assets/footer.png"/>
+          </td>
+        </tr>
+      </table>
+   </section>
+    
+    <!--Body End-->
+    </body>
+</html>
