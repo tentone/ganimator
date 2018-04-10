@@ -5,12 +5,13 @@
  - To run it simply download the repo and run the build/ganimator.jar, some example animations are available in the examples folder.
  - To load an animation first add the working directory in the file/settings menu.
 
+### Screenshots
 ![alt tag](https://raw.githubusercontent.com/tentone/ganimator/master/docs/screenshot/a.png)
 ![alt tag](https://raw.githubusercontent.com/tentone/ganimator/master/docs/screenshot/b.png)
 ![alt tag](https://raw.githubusercontent.com/tentone/ganimator/master/docs/screenshot/c.png)
  
 ### Install
- - Download repository from github
+ - Clone repository from github
  - Run ganimator.jar or ganimator.exe from the build folder
 
 ### License
